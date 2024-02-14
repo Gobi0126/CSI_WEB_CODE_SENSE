@@ -1,0 +1,119 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.oval {
+    width: 160px;
+    height: 80px;
+    background: #a84909;
+    border-radius: 40px;
+}
+.full-page
+{
+	z-index: -1;
+    height: 100%;
+	width: 100%;
+	/* background-image: linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)),url(wesson-wang-y0_vFxOHayg-unsplash.jpg); */
+	background-attachment:"fixed";
+	/* opacity: 0.9; */
+	background-position: center;
+	background-size: cover;
+	position: absolute;
+}
+.fullpage
+{
+    height: 100%;
+	width: 100%;
+	background-image: linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)),url(adminBlock.jpg);
+	background-attachment:"fixed";
+	min-height: 2000px;
+	min-width: 2000px;
+	/* opacity: 0.9; */
+	background-position: center;
+	background-size: cover;
+	position: absolute;
+}
+
+.navbar
+{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    padding-left: 50px;
+    padding-right: 30px;
+    padding-top: 50px;
+}
+nav
+{
+    flex: 1;
+    text-align: right;
+}
+nav ul 
+{
+    display: inline-block;
+    list-style: none;
+}
+nav ul li
+{
+    display: inline-block;
+    margin-right: 70px;
+}
+nav ul li a
+{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    font-family: sans-serif;
+}
+nav ul li button
+{
+    font-size: 20px;
+    color: white;
+    outline: none;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    font-family: sans-serif;
+}
+nav ul li button:hover
+{
+    color: aqua;
+}
+nav ul li a:hover
+{
+    color: aqua;
+}
+#heading{
+	color:floralwhite;
+
+}
+#decorate
+{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+}
+.back
+{
+	z-index: -1;
+    height: 100%;
+	width: 100%;
+	background-image: linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)),url(wesson-wang-y0_vFxOHayg-unsplash.jpg);
+	background-attachment:"fixed";
+	/* opacity: 0.9; */
+	background-position: center;
+	background-size: cover;
+	position: absolute;
+}
+.text{
+    margin-top: 10%;margin-left: 32%;margin-right: 20%;
+	color: white;
+	font-size: 50px;
+}
+.text1{
+    margin-top: 2%;margin-left: 32%;margin-right: 20%;
+	color: white;
+	font-size: 30px;
+}
